@@ -11,6 +11,7 @@
   .display-flex{
     display: flex;
   }
+ 
   /* nav releted styles */
 
   .bg-light{
@@ -79,6 +80,53 @@ text-align: center;
 margin-bottom: 20px;
 }
 /* banner styles end */
+
+/* team section styles start */
+
+
+.team-architecture{
+  width: 1200px;
+  /* background-color: teal; */
+  margin: 0 auto;
+  margin-top: 240px;
+}
+.team-image-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+   
+}
+.team-image-container img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.teams{
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  margin: 0 auto;
+ 
+}
+.feature{
+  padding: 50px;
+  width: 50%;
+  margin: 0 auto;
+}
+.feature-title{
+  color: #424242;
+  font-size: 42px;
+  font-weight: 700;
+  text-align: left;
+}
+.orange{
+      color: orange;
+}
 
 /* medium device resposive  */
 @media screen and (max-width: 768px) {
